@@ -1,0 +1,58 @@
+.navContainer{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+
+}
+
+.navLinks >ul >li >a{
+list-style: none;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+z-index: 999;
+color: #FFFFFF;
+}
+
+.navLogo{
+    margin-left: 60px;
+}
+
+.navLinks >ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbutton{
+    margin-right: 70px;
+}
+
+.visitbutton{
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    background: linear-gradient(180deg, #666DFF 0%, #5057E4 100%);
+}
+
+.navLinks >ul>li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 20px;
+   
+    
+}
