@@ -1,0 +1,40 @@
+.unlimtedContainer{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 30px 126px;
+    gap: 10px;
+    isolation: isolate;
+ width: 1540px;
+height: 500px;
+
+
+background: #100034;
+}
+
+.unlimitedsubTitleimage{
+    background-image: url('../images/goldlock.png');
+    width: 412.43px;
+height: 412.43px;
+background-repeat: no-repeat;
+background-position: cover;
+}
+
+.unlimitedTitle1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: #F1C767;
+}
+
+.unlimitedsubtitleTitle{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+color: #A5A5FF;
+}

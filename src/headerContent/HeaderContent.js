@@ -7,7 +7,7 @@ function HeaderContent() {
       <div className="headerContentContainer">
         <div className="headerContentContainer1">
           <h2 className="headerContentTitle">
-            The world’s <br /> largest dual <br /> wealth generator
+            The world’s  largest  dual  wealth generator
           </h2>
         </div>
         <div className="headerContentParagraph">

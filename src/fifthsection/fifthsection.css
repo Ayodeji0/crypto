@@ -1,0 +1,59 @@
+.fifthContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1540px;
+    height: 462px;
+    left: 0px;
+    top: 864px;
+    background: linear-gradient(94.96deg, rgba(81, 88, 246, 0.2) 0.8%, rgba(130, 45, 245, 0.2) 27.15%, rgba(243, 167, 97, 0.2) 97.42%);
+}
+
+.fifthContainerTitle{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 72px;
+color: #666DFF
+}
+
+.fifthexperience{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 41.6327px;
+line-height: 50px;
+color: #212121;
+}
+
+.fifthContainerSubtitle{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41.6327px;
+    line-height: 50px;
+    color: #212121;
+
+}
+
+.imageContainer{
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+}
+
+.fifthContentConatiner{
+    margin-left: 112px;
+}
+
+.droneImage{
+    /* background: radial-gradient(50.01% 49.96% at 50.08% 48.97%, #000000 64%, #1F1B43 78%, #453D98 96%);
+background-blend-mode: screen;
+mix-blend-mode: screen;
+opacity: 0.2;
+transform: rotate(-180deg); */
+
+margin-left: 10rem;
+}

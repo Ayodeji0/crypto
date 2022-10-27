@@ -5,6 +5,7 @@ function SecondContent() {
   return (
     <div className="secondContainer">
       <div className="secondContentConatiner">
+        
         <h3 className="secondContainerTitle">An experience like never before.</h3>
         <div>
           <p className="secondContainerSubtitle">

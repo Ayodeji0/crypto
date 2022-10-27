@@ -1,0 +1,125 @@
+.fourthConatiner {
+    margin-left: 6rem;
+  }
+  
+  .fourthContentContainer {
+    display: grid;
+    width: 1550px;
+    /* height: 100vh;  */
+    background-color: #0e0f1f;
+    left: 1440px;
+  
+    /* clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%); */
+  }
+  .fourthcontainerwidgetContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px;
+    margin-bottom: 4rem;
+    /* gap: 10px; */
+    width: 860px;
+    height: 320px;
+    background: linear-gradient(134.72deg, #4143b0 25.12%, #7d44a5 74.52%);
+    border-radius: 20px;
+  }
+  
+  .fourthcontainerwidgetContainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px;
+    gap: 10px;
+    width: 860px;
+    height: 320px;
+    background: linear-gradient(134.72deg, #4143b0 25.12%, #7d44a5 74.52%);
+    border-radius: 20px;
+  }
+  
+  .fouthContentParagraph {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+  
+    color: #ffffff;
+  }
+  .fourthcontainerwidget {
+    display: flex;
+    margin: 90px;
+    margin-top: 5rem;
+    padding-bottom: 8rem;
+  }
+  .fourthcontainerwidget2 {
+    display: flex;
+    margin: 90px;
+    margin-bottom: 6rem;
+  }
+  
+  .fourthcontainerTitle1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #f1c767;
+    margin-top: 8.5rem;
+    /* margin-bottom: 2rem; */
+  }
+  
+  .fourthcontainerparagraph {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    /* line-height: 62px; */
+  
+    /* UAB 3 */
+  
+    background: linear-gradient(
+      90.76deg,
+      #b671c9 -11.96%,
+      #5960f5 22.52%,
+      #41affa 68.36%,
+      #585ff4 93.52%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .fourthcontainerparagrap2{
+      font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  /* identical to box height, or 156% */
+  
+  
+  color: #FFFFFF;
+  }
+  
+  .fourthcontainerTitle2 {
+    font-family: "Poppins";
+    font-style: normal;
+    margin-left: 4rem;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #f1c767;
+    margin-bottom: 2rem;
+  }
+  .image {
+    margin-left: 100px;
+    margin-bottom: 7rem;
+  }
+  .image2 {
+    margin-left: 100px;
+    margin-top: 7rem;
+  }
+    
+    
