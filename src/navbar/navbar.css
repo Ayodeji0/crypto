@@ -34,16 +34,41 @@ color: #FFFFFF;
 
 .navbutton{
     margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.navIcon{
+    cursor: pointer;
+    color:#FFFFFF;
+    margin-top: 1rem;
+}
 .visitbutton{
-    margin-left: 20px;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    border: none;
-    color: #ffff;
-    background: linear-gradient(180deg, #666DFF 0%, #5057E4 100%);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px; 
+border: none;
+color: #212121;
+}
+
+.visitButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 48px;
+    gap: 10px;
+    color: #212121;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 211px;
+    height: 53px;
+    background: linear-gradient(90deg, #B88717 -5.35%, #FFD166 21.73%, #F5D281 42.92%, #C48E0E 107.68%);
+    border-radius: 50px;
 }
 
 .navLinks >ul>li{

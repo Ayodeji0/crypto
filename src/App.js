@@ -6,6 +6,10 @@ import FifthSection from './fifthsection/FifthSection';
 import FourthSection from './fourthsection/FourthSection';
 import Carousel from './carouselsection/Carousel';
 import Unlimited from './unlimited/Unlimited'
+import WaitListPage from './waitlistpage/WaitListPage';
+import Unbeatable from './unbeatable/Unbeatable';
+import RegulatoryInfo from './regulatoryinfo/RegulatoryInfo';
+import Footer from './footer/Footer';
 
 
 
@@ -19,6 +23,10 @@ function App() {
       <FifthSection/>
       <Carousel/>
       <Unlimited/>
+      <WaitListPage/>
+      <Unbeatable/>
+      <RegulatoryInfo/>
+      <Footer/>
     </div>
   );
 }

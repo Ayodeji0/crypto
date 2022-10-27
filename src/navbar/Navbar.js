@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaMoon} from 'react-icons/fa'
 import './navbar.css'
 
 function Navbar() {
@@ -17,8 +18,9 @@ function Navbar() {
                 </ul>
             </div>
             <div className='navbutton'>
-                <span>left</span>
-                <button className='visitbutton'>visit launchpad</button>
+                <FaMoon className='navIcon'/> 
+                <button className='visitButtonContainer'>visit launchpad</button>
+                
             </div>
             </div>   
               

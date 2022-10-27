@@ -1,0 +1,139 @@
+.waitlistContainer{
+     /* background-image: url('../images/coins.png'); */
+     /* background-repeat: no-repeat; */
+    /* background-position: center;  */
+     background-color: #0E0F1F; 
+   
+     
+}
+
+
+.waitlistanchor{
+height: 100px;
+width: 100px;
+border:2px solid #F5D281;
+border-radius: 50px;
+padding: 10px;
+border-color: #F5D281;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+background: linear-gradient(90deg, #B88717 -5.35%, #FFD166 21.73%, #F5D281 42.92%, #C48E0E 107.68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.headerContentwaitlist{
+    margin-top: 4rem;
+}
+
+.waitlistInvestorButton{
+    margin-top: 3rem;
+
+}
+
+.waistContainerA{
+width: 1530px;
+height: 669px;
+left: 0px;
+top: 9082px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 112px 112px;
+gap: 10px;
+}
+.waitlistContainerBottom{
+   
+    width: 1530px;
+height: 669px;
+left: 0px;
+top: 9082px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 112px 112px;
+gap: 10px;
+}
+
+.waistContainerA{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.waitlistContainerA{
+    margin-right: 100px;
+    padding-left: 1rem;
+}
+
+.waitlistContainerB{
+    padding-right: 5rem;
+}
+
+.waitlistContanerAcontent{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 50px 40px;
+gap: 10px;
+width: 512px;
+height: 494px;
+background: rgba(51, 52, 86, 0.4);
+backdrop-filter: blur(12px);
+border-radius: 16px;
+}
+
+.waitlistContainerBottom{
+
+}
+
+.waitlistTitle{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+/* identical to box height, or 156% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.waitlistSubscribe{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+background: linear-gradient(90deg, #B88717 -5.35%, #FFD166 21.73%, #F5D281 42.92%, #C48E0E 107.68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+/* Blues sha */
+
+text-shadow: 0px 10px 40px rgba(143, 67, 242, 0.2);
+}
+
+.waitlistinfo{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+text-align: center;
+
+color: #F0F0F0;
+}

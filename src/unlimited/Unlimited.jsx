@@ -1,7 +1,7 @@
 import React from 'react'
 import './unlimited.css'
 
-function cl () {
+function Unbeatable () {
   return (
     <div className='unlimtedContainer'>
         <div className='unlimitedTitle'>
@@ -15,4 +15,4 @@ function cl () {
   )
 }
 
-export default cl 
+export default Unbeatable 

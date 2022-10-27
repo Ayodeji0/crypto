@@ -1,0 +1,46 @@
+.regulatoryinfoContainer{
+    background-image: url('../images/linear-image.png');
+    width: 100%;
+     height: 500px;
+  left: -177.5px;
+   top: -196px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: center;
+   display: grid;
+   place-items: center;
+
+}
+
+.regulatoryinfoContainerA{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #ffff;
+}
+
+.regulatoryinfoContainerB{
+    margin-bottom: 3rem;
+}
+.regulatoryinfoContainerB >ul{
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    }
+.regulatoryinfoContainerB >ul >li{
+    list-style: none;
+    margin: auto;
+    margin-right: 3rem;
+    }
+.regulatoryinfoContainerB >ul >li >a{
+   color: #ffff;
+    }
