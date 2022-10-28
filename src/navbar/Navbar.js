@@ -10,11 +10,11 @@ function Navbar() {
             </div>
             <div className='navLinks'>
                 <ul>
-                <li><a href="#who">who we are</a></li>
-                <li><a href="#our-vision">our vision</a></li>
+                <li><a href="#who">Who We Are</a></li>
+                <li><a href="#our-vision">Our Vision</a></li>
                 <li><a href="#faq">FAQ</a></li>
-                <li><a href="#learn">learn more</a></li>
-                <li><a href="#join">join our waiting list</a></li>                
+                <li><a href="#learn">Learn More</a></li>
+                <li><a href="#join">Join our waiting list</a></li>                
                 </ul>
             </div>
             <div className='navbutton'>

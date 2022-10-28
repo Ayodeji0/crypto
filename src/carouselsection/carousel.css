@@ -8,7 +8,7 @@ background: #13142C;
 }
 
 .carouselParagraph{
-    font-family: 'DM Sans';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -37,7 +37,7 @@ color: #F1C767;
 }
 
 .carouselContainersubTitle{
-    font-family: 'DM Sans';
+font-family: 'DM Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
@@ -72,21 +72,81 @@ box-shadow: 0px 24px 68px #13142C;
 border-radius: 20px;
 }
 
+.carouselsliderContainer{
+    display: grid;
+}
+
+
+.sliderButton{
+    width: 60px;
+    height: 60px;
+    background: #333456;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.sliderContent{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px;
+margin-top: 4rem;
+gap: 8px;
+width: 948px;
+height: 445px;
+background: #333456;
+border-radius: 16px;
+}
+
+.carouselSliderdivider{
+    width: 948px;
+     height: 445px;
+     margin-top: 4rem;
+    
+}
+
+.carouseldivide{
+ height: 100%;
+ width: 100%;
+}
+
+.sliderContent >h1{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+color: #FFFFFF;
+}
+
+.sliderContent >h3{
+background: linear-gradient(90deg, #B88717 -5.35%, #FFD166 21.73%, #F5D281 42.92%, #C48E0E 107.68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.sliderContent >p{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+}
+
 .carouseldata{
-    display: flex;
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 48px;
 gap: 8px;
-
 width: 948px;
 height: 445px;
-
+margin-top: 3rem;
 background: #333456;
 border-radius: 16px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;

@@ -35,6 +35,34 @@ export const carousel =[
     id:"4",
     word:""
   }
+];
+
+
+  export const sliders = [
+    {
+      id: '1',
+      title: 'Alternative #1',
+      subtitle:'Refer THREE, earn $1000',
+      info: '  After you have become an Ultainfinity user that is, completed the registration process on Airdrops you will be assigned a unique referral code. This referral code can be seen on your dashboard.Upon successfully referring three friends, you get $1000 worth of UTTA tokens, a reward for good work done. This amount can be used to trade, invest and do all forms of crypto business. As another set of three referrals is confirmed, another $1000 is credited meaning that there is no end to this earning.'
+    },
+    {
+      id: '2',
+      title: 'Alternative #2',
+      subtitle:'Subscribe to SIX Channels, Earn $1000',
+      info: 'The Ultainfinity channels are ubiquitous on LinkedIn, YouTube, Instagram etc. Did you know that you could earn $1000 just by subscribing to 6 Ultainfinity channels? By joining Ultainfinity channels, you will be sitting at a table with Ultainfinity millionaires and potential millionaires and hence, you deserves reward. You will automatically be credited $1000, however, you will need to have registered on Ultainfinity Wealth Launchpad. This will enable Ultainfinity to identify you as a unique user and as well, create your wallet'
+    },
+    {
+      id: '3',
+      title: 'Alternative #3',
+      subtitle:'Refer THREE, earn $1000',
+      info: '  After you have become an Ultainfinity user that is, completed the registration process on Airdrops you will be assigned a unique referral code. This referral code can be seen on your dashboard.Upon successfully referring three friends, you get $1000 worth of UTTA tokens, a reward for good work done. This amount can be used to trade, invest and do all forms of crypto business. As another set of three referrals is confirmed, another $1000 is credited meaning that there is no end to this earning.'
+    },
+    {
+      id: '4',
+      title: 'Alternative #4',
+      subtitle:'Refer THREE, earn $1000',
+      info: '  After you have become an Ultainfinity user that is, completed the registration process on Airdrops you will be assigned a unique referral code. This referral code can be seen on your dashboard.Upon successfully referring three friends, you get $1000 worth of UTTA tokens, a reward for good work done. This amount can be used to trade, invest and do all forms of crypto business. As another set of three referrals is confirmed, another $1000 is credited meaning that there is no end to this earning.'
+    },
 ]
 
 

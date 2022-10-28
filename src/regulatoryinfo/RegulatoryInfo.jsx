@@ -1,5 +1,6 @@
 import React from "react";
 import "./regulatoryinfo.css";
+import { Link } from "react-router-dom";
 
 function RegulatoryInfo() {
   return (
@@ -14,12 +15,11 @@ function RegulatoryInfo() {
         </p>
       </div>
       <div className="regulatoryinfoContainerB">
-        <ul>
-            <li><a href="#policy">Privacy Policy</a></li>
-            <li><a href="#roadmap">Roadmaps</a></li>
-            <li><a href="#whitepaper">Whitepaper</a></li>
-            <li><a href="#resources">Resources</a></li>
-        </ul>
+                {/* <Link to="/privacy">Privacy</Link> */}
+                {/* <Link to="/terms">Terms</Link> */}
+                {/* <Link to="/resources">Resources</Link> */}
+                {/* <Link to="/roadmaps">Roadmaps</Link> */}
+                {/* <Link to="/whitepaper">Whitepaper</Link>  */}
       </div>
     </div>
   );

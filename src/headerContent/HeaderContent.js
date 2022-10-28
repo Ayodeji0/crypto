@@ -24,9 +24,9 @@ function HeaderContent() {
             Airdrops Ever
           </p>
         </div>
-        <div className="headerContentwaitlist">
+        <div className="waitListrContentlist">
           <a href="#waitlist" className="headerContentwaitbutton">
-            join waitlist
+            Join waitlist
           </a>
         </div>
       </div>

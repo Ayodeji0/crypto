@@ -1,5 +1,5 @@
 import React from "react";
-import { datas } from "../data";
+import {datas} from "../data"
 import "./thirdsection.css";
 
 function ThirdSection() {

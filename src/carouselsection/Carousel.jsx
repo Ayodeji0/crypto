@@ -1,8 +1,10 @@
 import React from "react";
-// import { datas } from "../data";
+ import {sliders} from "../data";
+ import Carousel from 'react-elastic-carousel';
 import "./carousel.css";
+import { FaArrowsAlt } from "react-icons/fa";
 
-function Carousel() {
+function CarouselPage() {
   return (
     <div className="carouselContainer">
       <div className="carouselFirstContainer">
@@ -24,11 +26,28 @@ function Carousel() {
           </p>
         </div>
         {/* carosel contents */}
-        <div className="carouseldata">
-          <p>
-           carousel heading
-          </p>
+        <div className="carouselsliderContainer">
+          <div className="carouselSliderdivider">
+            <div className="carouseldivide">
+
+              {/*  carousel needs to be fixed */}
+              
+             {/* {sliders.map(({id, title, subtitle, info})=>(
+   <div key={id} className="sliderContent">
+   <h1>{title}</h1>
+   <h3>{subtitle}</h3>
+   <p>{info}</p>
+ </div> 
+ ))} */}
+            </div>
+          </div>
+          <div>
+            <h2 className="sliderButton1">
+              <FaArrowsAlt />
+            </h2>
+          </div>
         </div>
+
         <div className="carouselminidata">
           <p className="carouselminidataparagraph">
             The exchanged cryptocurrency transactions (in Alternatives #3 & #4)
@@ -44,4 +63,14 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default CarouselPage;
+
+
+
+
+
+
+
+
+
+
