@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
+import Phone from "../phone/Phone";
 import "./waitlistpage.css";
 import {
   FaTelegram,
@@ -12,13 +13,13 @@ import {
   FaCheck,
   FaTeamspeak,
 } from "react-icons/fa";
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+// import 'react-phone-number-input/style.css'
+// import PhoneInput from 'react-phone-number-input'
 
 function WaitListPage() {
-  const [value, setValue] = useState('+1')
+  // const [value, setValue] = useState('+1')
   return (
-  // main container
+    // main container
     <main className="waitlistContainer">
       <div className="waitContainerA">
         {/* first container */}
@@ -28,33 +29,26 @@ function WaitListPage() {
             <p className="waitlisttitle">Join our Waiting List</p>
             {/* set of first icons */}
             <div className="waitlistIconsA">
-              <FaTelegram />
-              <FaWhatsapp />
-              <FaSnapchat />
-              <FaSkype />
-              <FaDiscord />
+              <FaTelegram  className="telegram"/>
+              <FaWhatsapp  className="whatapp"/>
+              <FaSkype className="skype" />
+              <FaSnapchat  className="snapchat"/>
+              <FaDiscord className="discord" />
             </div>
             <div className="waitlistIconsB">
-            <FaViber />
-            <FaSignal />
-            <FaPager/>
-            <FaCheck/>
-            <FaTeamspeak/>
+              <FaViber className="viber" />
+              <FaSignal  className="signal"/>
+              <FaPager className="pager"/>
+              <FaCheck className="check" />
+              <FaTeamspeak className="team"/>
             </div>
-            {/* phone-input needs styling and resuable  */}
-            <PhoneInput
-            placeholder="Enter phone number"
-            value={value}
-            onChange={setValue}
-            className="waitPhone"/>
-            textInputStyle={}
-            </div>
-        
+            <Phone />
+          </div>
           <div className="waitListrContentlist">
-          <a href="#waitlist" className="waitListContentbutton">
-            Join waitlist
-          </a>
-        </div>
+            <a href="#waitlist" className="waitListContentbutton">
+              Join waitlist
+            </a>
+          </div>
         </div>
         <div className="waitlistContainerB">
           <h4>Join Waitlist</h4>

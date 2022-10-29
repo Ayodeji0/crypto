@@ -24,11 +24,11 @@ function HeaderContent() {
             Airdrops Ever
           </p>
         </div>
-        <div className="waitListrContentlist">
+         <div className="waitListrContentlist"> 
           <a href="#waitlist" className="headerContentwaitbutton">
             Join waitlist
           </a>
-        </div>
+        </div> 
       </div>
 
       <div className="headerContentContainer2">
@@ -41,3 +41,19 @@ function HeaderContent() {
 }
 
 export default HeaderContent;
+
+
+
+
+
+
+ // const [index, setIndex] = useState(0)
+
+  // const handleSlide =(direction) =>{
+  //   if(direction === right){
+  //     setIndex(index !==0 ? index-1 : 4)
+  //   }
+  //   if(direction === left){
+  //     setIndex(index !==4 ? index+1 : 0)
+  //   }
+  // }

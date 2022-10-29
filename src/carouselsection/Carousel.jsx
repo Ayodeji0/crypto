@@ -1,8 +1,9 @@
 import React from "react";
- import {sliders} from "../data";
- import Carousel from 'react-elastic-carousel';
+import { sliders } from "../data";
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import "./carousel.css";
-import { FaArrowsAlt } from "react-icons/fa";
+
 
 function CarouselPage() {
   return (
@@ -27,24 +28,18 @@ function CarouselPage() {
         </div>
         {/* carosel contents */}
         <div className="carouselsliderContainer">
-          <div className="carouselSliderdivider">
-            <div className="carouseldivide">
-
-              {/*  carousel needs to be fixed */}
-              
-             {/* {sliders.map(({id, title, subtitle, info})=>(
-   <div key={id} className="sliderContent">
-   <h1>{title}</h1>
-   <h3>{subtitle}</h3>
-   <p>{info}</p>
- </div> 
- ))} */}
+            <div className="sliderContain">
+           <div className="sliderWrapper"></div>
             </div>
-          </div>
           <div>
-            <h2 className="sliderButton1">
-              <FaArrowsAlt />
-            </h2>
+            <div className="slidercontainer" >
+              <div className="slidercontainerA">
+              <ArrowBackIosIcon  className="sliderButton2"/>
+              </div>
+              <div className="slidcontainerB">
+              <ArrowForwardIosIcon className="sliderButton1"/>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -65,12 +60,12 @@ function CarouselPage() {
 
 export default CarouselPage;
 
-
-
-
-
-
-
-
-
-
+// {
+//    {sliders.map(({id, title, subtitle, info})=>(
+//    <div key={id} className="sliderContent">
+//    <h1>{title}</h1>
+//    <h3>{subtitle}</h3>
+//    <p>{info}</p>
+ 
+ 
+// }

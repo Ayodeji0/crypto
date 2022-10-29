@@ -4,6 +4,147 @@
   /* background-position: center;  */
   background-color: #0e0f1f;
 }
+/*  icons design */
+.telegram{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #2CA3DB;
+border-radius: 5px;
+}
+.whatapp{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #2CD44A;
+border-radius: 5px;
+}
+.skype{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #0079FF;
+border-radius: 5px;
+}
+.snapchat{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #644382;
+border-radius: 5px;
+}
+.discord{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #5C73C4;
+border-radius: 5px;
+}
+.telegram{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #2CA3DB;
+border-radius: 5px;
+}
+
+.viber{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+width: 44px;
+height: 44px;
+background: #FFFA37;
+border-radius: 5px;
+}
+.signal{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #5C73C4;
+border-radius: 5px;
+}
+.pager{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+width: 44px;
+height: 44px;
+background: #8BC34A;
+border-radius: 5px;
+}
+.check{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+width: 44px;
+height: 44px;
+background: #2CCF54;
+border-radius: 5px;
+}
+.team{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 9px 8px 7px;
+
+width: 44px;
+height: 44px;
+
+background: #00A0E9;
+border-radius: 5px;
+}
+
+/* end of icons styles */
 
 .waitlistanchor {
   height: 100px;
@@ -201,7 +342,7 @@ color: #FFFFFF;
   display: inline-block;
   font-size: 16px;
   margin-left: 10rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   line-height: 22px;
   color: #666DFF;
   border: 1px solid #fff;
@@ -215,6 +356,7 @@ color: #FFFFFF;
   border:2px solid #F5D281;
   border-radius: 50px;
   padding: 6px;
+  /* margin-top: -35rem; */
   border-color: #F5D281;
   font-family: 'Poppins';
   font-style: normal;
@@ -275,9 +417,7 @@ border-radius: 8px;
     opacity: 1;
 }
 
-.--PhoneInputCountryFlag-height{
-   flagiconheight: 3rem;
-}
+
 
 .waitPhoneContainer{
 width: 432px;

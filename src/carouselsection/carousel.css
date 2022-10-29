@@ -1,14 +1,18 @@
-.carouselContainer{
-    display: grid;
-    place-items: center;
-    width: 1540px;
-height: 1248px;
+.carouselContainer {
+  display: grid;
+  place-items: center;
+  width: 1540px;
+  height: 1248px;
 
-background: #13142C;
+  background: #13142c;
+}
+
+.carouselFirstContainer{
+  margin-top: 6rem;
 }
 
 .carouselParagraph{
-font-family: 'DM Sans';
+  font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -22,147 +26,265 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.carouselFirstContainer{
-    margin-bottom: 45rem;
-}
-.carouselContainerTitle{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: 72px;
-text-align: center;
-margin-bottom: 1.75rem;
-color: #F1C767;
+.slidercontainer{
+ display: flex;
+ align-items: flex-start;
+ 
+
 }
 
-.carouselContainersubTitle{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 50px;
-text-align: center;
-margin-bottom: 3rem;
-background: linear-gradient(90.76deg, #B671C9 -11.96%, #5960F5 22.52%, #41AFFA 68.36%, #585FF4 93.52%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-}
-
-.carouselstatements{
-padding: 32px 24px;
-width: 1064px;
-height: 209px;
-left: calc(50% - 1064px/2 - 3px);
-top: 320px;
-background: #191A38;
-box-shadow: 0px 24px 68px #13142C;
-border-radius: 20px;
-}
-
-.carouselminidata{
-    width: 1064px;
-height: 209px;
-margin-top: 4rem;
-
-background: #191A38;
-box-shadow: 0px 24px 68px #13142C;
-border-radius: 20px;
-}
-
-.carouselsliderContainer{
-    display: grid;
-}
-
-
-.sliderButton{
+.sliderButton1{
+    margin-left: 6px;
     width: 60px;
     height: 60px;
-    background: #333456;
-    border-radius: 30px 0px 0px 30px;
-}
-
-.sliderContent{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 48px;
-margin-top: 4rem;
-gap: 8px;
-width: 948px;
-height: 445px;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: small;
 background: #333456;
-border-radius: 16px;
+border-radius: 0px 30px 30px 0px;
 }
-
-.carouselSliderdivider{
-    width: 948px;
-     height: 445px;
-     margin-top: 4rem;
-    
-}
-
-.carouseldivide{
- height: 100%;
- width: 100%;
-}
-
-.sliderContent >h1{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 50px;
-color: #FFFFFF;
-}
-
-.sliderContent >h3{
-background: linear-gradient(90deg, #B88717 -5.35%, #FFD166 21.73%, #F5D281 42.92%, #C48E0E 107.68%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-}
-
-.sliderContent >p{
-    
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-color: #FFFFFF;
-}
-
-.carouseldata{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 48px;
-gap: 8px;
-width: 948px;
-height: 445px;
-margin-top: 3rem;
+.sliderButton2{
+    margin-left: 4px;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: 20px;
 background: #333456;
-border-radius: 16px;
-flex: none;
-order: 0;
-flex-grow: 0;
+border-radius: 30px 0px 0px 30px;
+}
+.slidercontainerA{
+    /* margin-left: 3rem; */
+}
+.slidercontainerB{
+    margin-right: 3rem;
+}
+.rollerHeader {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  color: #ffffff;
 }
 
-.carouselminidataparagraph{
+.rollersubtitle {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+
+
+
+  background: linear-gradient(
+    90deg,
+    #b88717 -5.35%,
+    #ffd166 21.73%,
+    #f5d281 42.92%,
+    #c48e0e 107.68%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+ .rollerinfo{
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
 
-display: flex;
-align-items: center;
-text-align: center;
 
-color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+
+.carouselFirstContainer {
+  margin-bottom: 45rem;
+}
+.carouselContainerTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 1.75rem;
+  color: #f1c767;
+}
+
+.carouselContainersubTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(
+    90.76deg,
+    #b671c9 -11.96%,
+    #5960f5 22.52%,
+    #41affa 68.36%,
+    #585ff4 93.52%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.carouselstatements {
+  padding: 32px 24px;
+  width: 1064px;
+  height: 209px;
+  left: calc(50% - 1064px / 2 - 3px);
+  top: 320px;
+  background: #191a38;
+  box-shadow: 0px 24px 68px #13142c;
+  border-radius: 20px;
+}
+
+.carouselminidata {
+  width: 1064px;
+  height: 209px;
+  margin-top: 4rem;
+
+  background: #191a38;
+  box-shadow: 0px 24px 68px #13142c;
+  border-radius: 20px;
+}
+
+.carouselsliderContainer {
+  display: grid;
+}
+
+.w{
+  display: flex;
+  align-items: center;
+}
+
+.slideContent{
+  width: 300vw;
+}
+
+.j{
+  padding: 80px;
+  /* gap: 8px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48px;
+  margin: 40px;
+  height: calc(100vh -100px) ;
+  
+  background: #333456;
+  border-radius: 16px;
+}
+
+.sliderButton {
+  width: 60px;
+  height: 60px;
+  background: #333456;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.sliderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  margin-top: 4rem;
+  gap: 8px;
+  width: 948px;
+  height: 445px;
+  background: #333456;
+  border-radius: 16px;
+}
+
+.carouselSliderdivider {
+  width: 948px;
+  height: 445px;
+  margin-top: 4rem;
+}
+
+.carouseldivide {
+  height: 100%;
+  width: 100%;
+}
+
+.sliderContent > h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.sliderContent > h3 {
+  background: linear-gradient(
+    90deg,
+    #b88717 -5.35%,
+    #ffd166 21.73%,
+    #f5d281 42.92%,
+    #c48e0e 107.68%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sliderContent > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.carouseldata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px;
+  gap: 8px;
+  width: 948px;
+  height: 445px;
+  margin-top: 3rem;
+  background: #333456;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.carouselminidataparagraph {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
 }

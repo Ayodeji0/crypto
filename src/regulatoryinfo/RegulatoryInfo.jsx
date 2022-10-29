@@ -15,11 +15,11 @@ function RegulatoryInfo() {
         </p>
       </div>
       <div className="regulatoryinfoContainerB">
-                {/* <Link to="/privacy">Privacy</Link> */}
-                {/* <Link to="/terms">Terms</Link> */}
-                {/* <Link to="/resources">Resources</Link> */}
-                {/* <Link to="/roadmaps">Roadmaps</Link> */}
-                {/* <Link to="/whitepaper">Whitepaper</Link>  */}
+                 <Link to="/privacy"  className="regulatoryinfoContainerLink">Privacy</Link> 
+                 <Link to="/terms" className="regulatoryinfoContainerLink">Terms</Link> 
+                 <Link to="/resources" className="regulatoryinfoContainerLink">Resources</Link> 
+                 <Link to="/roadmaps" className="regulatoryinfoContainerLink">Roadmaps</Link> 
+                 <Link to="/whitepaper" className="regulatoryinfoContainerLink">Whitepaper</Link> 
       </div>
     </div>
   );
